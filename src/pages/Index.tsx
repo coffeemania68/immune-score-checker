@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Shield, ArrowRight, Hospital, Pill } from "lucide-react";
@@ -53,9 +52,9 @@ const Index = () => {
                 href="https://pcy.daily4senior.com/172"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center space-x-2 p-4 bg-green-50 text-green-700 rounded-xl hover:bg-green-100 transition-colors border border-green-200"
+                className="flex h-14 items-center justify-center space-x-2 p-4 bg-orange-50 text-orange-700 rounded-xl hover:bg-orange-100 transition-colors border border-orange-200 whitespace-nowrap"
               >
-                <Hospital className="w-5 h-5" />
+                <Hospital className="w-5 h-5 flex-shrink-0" />
                 <span>우리동네병원비교</span>
               </a>
               
@@ -63,9 +62,9 @@ const Index = () => {
                 href="https://agewell.tistory.com/308"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center space-x-2 p-4 bg-purple-50 text-purple-700 rounded-xl hover:bg-purple-100 transition-colors border border-purple-200"
+                className="flex h-14 items-center justify-center space-x-2 p-4 bg-purple-50 text-purple-700 rounded-xl hover:bg-purple-100 transition-colors border border-purple-200 whitespace-nowrap"
               >
-                <Pill className="w-5 h-5" />
+                <Pill className="w-5 h-5 flex-shrink-0" />
                 <span>겨울철 영양제 정보</span>
               </a>
             </div>
