@@ -5,7 +5,7 @@ import { Shield, ArrowRight, Hospital, Pill } from "lucide-react";
 import { questions } from "../data/questions";
 
 const Index = () => {
-  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [currentQuestion, setCurrentQuestion] = useState(-1);
   const [answers, setAnswers] = useState<number[]>([]);
   const navigate = useNavigate();
   const isQuizStarted = currentQuestion > -1;
