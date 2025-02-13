@@ -1,11 +1,8 @@
 
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Shield, ArrowRight } from "lucide-react";
+import { Shield, ArrowRight, Hospital, Pill } from "lucide-react";
 import { questions } from "../data/questions";
-
-  // ... existing imports ...
-import { Shield, ArrowRight, Hospital, Pill } from "lucide-react"; // 아이콘 추가
 
 const Index = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -27,7 +24,6 @@ const Index = () => {
       navigate("/result", { state: { score: totalScore } });
     }
   };
-
 
   if (!isQuizStarted) {
     return (
