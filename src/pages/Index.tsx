@@ -34,7 +34,7 @@ const Index = () => {
               <Shield className="w-20 h-20 text-blue-600" />
             </div>
             <h1 className="text-3xl font-bold text-blue-900">
-              건강나이 테스트
+              당신의 면역력 점수는?
             </h1>
             <p className="text-gray-600 text-lg leading-relaxed">
               간단한 질문으로 알아보는<br />
@@ -44,7 +44,7 @@ const Index = () => {
               onClick={handleStart}
               className="w-full py-5 bg-blue-600 text-white rounded-xl font-medium hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2 text-lg shadow-md"
             >
-              <span>건강나이 측정하기</span>
+              <span>면역력 측정하기</span>
               <ArrowRight className="w-5 h-5" />
             </button>
             
